@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    border: 3px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 30px auto;
+    max-width: 800px;
+    width: 90%;
+}
+
+/* Headings */
+.container h2 {
+    color: black;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.container p {
+    text-align: justify;
+    color: black;
+    line-height: 1.5;
+}
+
+/* Images */
+.container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
